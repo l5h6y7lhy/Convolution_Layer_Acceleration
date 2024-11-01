@@ -1,0 +1,16 @@
+Test batch size: 10000
+Loading fashion-mnist data...Done
+Loading model...Done
+Conv-GPU==
+Layer Time: 179.236 ms
+Op Time: 0.003476 ms
+Conv-GPU==
+Layer Time: 128.459 ms
+Op Time: 0.003507 ms
+
+Test Accuracy: 0.8714
+
+========= CUDA-MEMCHECK
+========= This tool is deprecated and will be removed in a future release of the CUDA toolkit
+========= Please use the compute-sanitizer tool as a drop-in replacement
+========= ERROR SUMMARY: 0 errors
