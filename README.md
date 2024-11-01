@@ -1,4 +1,4 @@
-These codes are from my final project of the parallel programming course at UIUC. Specifically, I use different optimization techniques to accelerate the convolution layer of LeNet, in CUDA.
+These codes are from my final project of the parallel programming course at UIUC. Specifically, I use different optimization techniques to accelerate the convolution layers of LeNet, in CUDA. The pseudocode of each convolution layer is as below.
 
 ```plaintext
 for b = 0 .. Batch                     // for each image in the batch 
